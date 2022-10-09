@@ -1,0 +1,40 @@
+.alt-header {
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+  margin-top: 12px;
+  z-index: 2;
+}
+
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alt-header h1 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.alt-header--column:first-child {
+  margin-right: auto;
+}
+
+.alt-header--column:last-child {
+  margin-left: auto;
+}
+
+.alt-header--column span:last-child {
+  margin-left: 20px;
+}
+.alt-header--column:nth-child(2) {
+  text-align: center;
+}
+.alt-header--column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header--column {
+  width: 33%;
+}

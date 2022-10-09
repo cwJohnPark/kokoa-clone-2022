@@ -1,0 +1,12 @@
+.icons__exclamation-mark {
+  color: red;
+  display: block;
+  width: 12px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid red;
+  border-radius: 50%;
+  opacity: 0.9;
+  margin-top: 10px;
+  margin-left: 5px;
+}
